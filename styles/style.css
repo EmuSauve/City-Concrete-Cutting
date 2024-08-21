@@ -235,6 +235,9 @@ ul {
 
 .card-text {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card-text p{
@@ -692,6 +695,7 @@ footer {
 
   .responsive-flexbox {
     flex-direction: column;
+    flex-wrap: unset;
   }
 
   .hr {
