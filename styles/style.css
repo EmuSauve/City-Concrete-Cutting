@@ -435,6 +435,10 @@ footer {
   background-color: #F2F2F4;
 }
 
+.top-instagram img {
+  width: 100%;
+}
+
 /* Testimonials */
 .top-testimonials {
 }
