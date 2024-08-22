@@ -51,6 +51,13 @@ h4 {
   margin-bottom: 10px;
 }
 
+h5 {
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
 hr {
   opacity: 1;
 }
@@ -119,6 +126,10 @@ ul {
 
 .align-center {
   text-align: center;
+}
+
+.align-left {
+  text-align: left;
 }
 
 .justify-content-center {
@@ -254,6 +265,16 @@ ul {
 
 .red-shadow {
   box-shadow: 30px 30px 0px 0px rgba(193, 42, 0, 1);
+}
+
+.icon-circle-bg {
+  width: 130px;
+  height: 130px;
+  line-height: 200%;
+  background-color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
 }
 
 /* Header */
@@ -443,7 +464,7 @@ footer {
 }
 
 /* Testimonials */
-.top-testimonials {
+.testimonials {
 }
 
 .reviewer {
@@ -461,10 +482,6 @@ footer {
 .carousel-review {
   width: 60%;
   margin: 0 auto;
-}
-
-.carousel-item img{
-  width: 35px;
 }
 
 .carousel-item a{
@@ -595,6 +612,68 @@ footer {
   width: 40%;
 }
 
+/* Why Choose Us */
+.about-whychooseus {
+  background-image: url("../images/why-choose-us-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-whychooseus .icon-circle-bg {
+  margin-bottom: 10px;
+}
+
+.about-whychooseus .flexbox {
+  margin-bottom: 30px;
+}
+
+/* Meet Our Team */
+.about-meetourteam {
+  background-color: #F2F2F4;
+}
+
+.about-meetourteam .flexbox {
+  width: 40%;
+  display: flex;
+  gap: 20px;
+}
+
+.meetourteam-img {
+  width: 90%;
+}
+
+.meetourteam-img img {
+  width: 100%;
+}
+
+.meetourteam-text {
+  width: 50%;
+}
+
+
+/* Services */
+.services-services {
+  background-color: #F2F2F4;
+}
+
+.services-services .responsive-flexbox{
+  background-color: #ffffff;
+  margin-bottom: 100px;
+  padding: 30px;
+  align-items: flex-start;
+  box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.05);
+}
+
+.services-services img{
+  width: 30%;
+}
+
+.services-services .align-left{
+  width: 65%;
+}
+
+
 
 @media screen and (max-width: 1225px) {
   .nav-link {
@@ -677,6 +756,15 @@ footer {
   .area-list {
     column-count: 2;
   }
+
+  .about-meetourteam .flexbox{
+    flex-direction: column;
+  }
+
+  .meetourteam-text {
+    width: 55%;
+  }
+
 }
 
 /* (max-width: 796px) */
@@ -714,6 +802,10 @@ footer {
     height: 400px;
   }
 
+  .carousel-item img{
+    width: 80%;
+  }
+
   .top-questions .responsive-flexbox{
     flex-direction: column-reverse;
   }
@@ -728,6 +820,37 @@ footer {
     width: 100%;
     margin-top:40px;
   }
+
+  .about-whoweare .responsive-flexbox{
+    margin-bottom: 30px;
+  }
+
+  .whoweare-textbox {
+    width: 100%;
+  }
+  .about-meetourteam .flexbox {
+    margin-bottom: 40px;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .meetourteam-text {
+    width: 100%;
+  }
+
+  .services-services .responsive-flexbox {
+    margin-bottom: 30px;
+  }
+
+  .services-services img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .services-services .align-left{
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 670px) {
