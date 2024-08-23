@@ -280,7 +280,7 @@ ul {
 /* Header */
 /* Navigation */
 .navbar {
-  z-index: 1;
+  z-index: 99;
   padding: 10px 0;
 }
 
