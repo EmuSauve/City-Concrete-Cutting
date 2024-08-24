@@ -8,6 +8,10 @@
   <title>About Us/City Concrete Cutting Inc.</title>
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Lity -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.css' />
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.js'></script>
   <!-- Style sheet -->
   <link rel="stylesheet" href="styles/style.css">
   <!-- Google font -->
@@ -32,7 +36,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="about.html">ABOUT US</a>
+              <a class="nav-link" aria-current="page" href="about.html">ABOUT US</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -54,7 +58,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="projects.html">PROJECTS</a>
+              <a class="nav-link active" aria-current="page" href="projects.html">PROJECTS</a>
             </li>
             <li class="nav-item nav-link">
               <a class="button-box button-primary" href="contact.html"><img src="images/mail.png" alt="Email icon">CONTACT</a>
@@ -77,161 +81,225 @@
     <div class="title-space-bg">
     </div>
     <div class="align-center">
-      <h1>About Us</h1>
+      <h1>Projects</h1>
     </div>
   </section>
 
   <!-- Main -->
-  <!-- Who we are -->
-  <section class="section-style about-whoweare">
+  <!-- Projects -->
+  <section class="section-style projects-projects">
     <div class="content-max-width align-center">
-      <h2><span class="highlight">W</span>ho We Are</h2>
-      <hr class="h-line">
-      <div class="responsive-flexbox">
-        <div class="whoweare-textbox">
-          <h4>Your Trusted Concrete Cutting Partner</h4>
-          <p>City Concrete Cutting: Precision and reliability in every cut. We specialize in delivering high-quality concrete cutting solutions with a focus on craftsmanship and efficiency, ensuring that your project is completed to the highest
-            standards.</p>
-        </div>
-        <img class="whoweare-img" src="images/about-pic1.jpg" alt="Picture of concrete cutting">
+
+<!-- 後でトップと他のページのヘッダーを変えるのを忘れずに -->
+
+<div class="project-box"><!-- Project1 -->
+  <h4>Aldergrove Town Centre - Parkade Modification</h4>
+  <div class="responsive-flexbox">
+    <div class="align-left project-textbox">
+      <p>
+      Scope of work included the following:<br>
+      <ul>
+        <li>Removal of a large square section of the parkade concrete slab.</li>
+        <li>Cutting and removal of a wall section that extended beyond the required dimensions.</li>
+        <li>Modification of the double door frame to accommodate a taller door height.</li>
+        <li>Core drilling of 1 1/4" diameter holes through the slab for anchor bolt installation.</li>
+        <li>Notching of the footing to allow for removal of the incorrectly poured section.</li>
+      </ul>
+      </p>
+    </div>
+    <div class="project-img-box">
+      <div class="project-img">
+        <a href="images/projects/photo1.jpeg" data-lity="data-lity">
+          <img src="images/projects/photo1.jpeg" alt="concrete cutting project image">
+        </a>
       </div>
-      <div class="responsive-flexbox flexbox-reverse">
-        <div class="whoweare-textbox">
-          <h4>Our Mission</h4>
-          <p>We are committed to deliver accurate, dependable, and efficient concrete cutting services that consistently exceed client expectations. We leverage our team's expertise to ensure high-quality results and prioritize safety on every project.</p>
-        </div>
-        <img class="whoweare-img" src="images/about-pic2.jpg" alt="Picture of concrete cutting">
+      <div class="project-img">
+        <a href="images/projects/photo14.jpeg" data-lity="data-lity">
+          <img src="images/projects/photo14.jpeg" alt="concrete cutting project image">
+        </a>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="project-box"><!-- Project2 -->
+  <h4>Metal Track Replacement Project</h4>
+  <div class="responsive-flexbox">
+    <div class="align-left project-textbox">
+      <p>
+        In collaboration with Roaron Construction, City Concrete Cutting successfully replaced a metal track that was embedded in the concrete substrate. To meet the engineer's specifications, the track was installed at an angle. To ensure precise cutting and installation, a custom guide board was fabricated to assist the saw operator.<br>
+        This project demonstrated our ability to execute complex tasks in partnership with industry professionals, while adhering to stringent engineering requirements.<br>
+      </p>
+    </div>
+    <div class="project-img-box">
+      <div class="project-img">
+        <a href="images/projects/photo3.jpeg" data-lity="data-lity">
+          <img src="images/projects/photo3.jpeg" alt="concrete cutting project image">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="project-box"><!-- Project3 -->
+  <h4>Burnaby Tennis Club</h4>
+  <div class="project-img">
+    <a href="images/projects/video1.mp4" data-lity="data-lity">
+      <img src="images/projects/video1-img.png" alt="concrete cutting project video image">
+    </a>
+  </div>
+</div>
+
+
+
+<!-- Projects only pictures -->
+<h2><span class="highlight">O</span>ther Works</h2>
+<hr class="h-line">
+
+<div class="flexbox project-gallery">
+
+  <div class="project-img">
+    <a href="images/projects/photo2.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo2.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo4.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo4.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo5.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo5.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo6.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo6.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo7.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo7.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo8.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo8.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo9.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo9.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo10.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo10.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/video2.mp4" data-lity="data-lity">
+      <img src="images/projects/video2-img.png" alt="concrete cutting project video image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo11.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo11.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo12.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo12.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo13.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo13.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo15.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo15.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo16.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo16.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo17.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo17.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo18.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo18.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo19.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo19.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo20.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo20.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo21.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo21.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo22.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo22.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo23.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo23.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+  <div class="project-img">
+    <a href="images/projects/photo24.jpeg" data-lity="data-lity">
+      <img src="images/projects/photo24.jpeg" alt="concrete cutting project image">
+    </a>
+  </div>
+
+
+
+</div>
+
+
+
     </div>
   </section>
 
-  <!-- Why Choose Us -->
-  <section class="section-style about-whychooseus">
-    <div class="content-max-width align-center">
-      <h2 class="text-white"><span class="highlight">W</span>hy Choose Us</h2>
-      <hr class="h-line">
-      <div class="responsive-flexbox">
-        <div class="flexbox flexcolumn">
-          <div class="icon-circle-bg">
-            <img src="images/icon-experience.png" alt="Exparience image">
-          </div>
-          <h5>
-            <script>
-              var date = new Date();
-              document.write(date.getFullYear() - 2012);
-            </script>
-            + years experience
-          </h5>
-        </div>
-        <div class="flexbox flexcolumn">
-          <div class="icon-circle-bg">
-            <img src="images/icon-customer.png" alt="Customer satisfaction image">
-          </div>
-          <h5>High customer satisfaction</h5>
-        </div>
-        <div class="flexbox flexcolumn">
-          <div class="icon-circle-bg">
-            <img src="images/icon-projects.png" alt="Projects image">
-          </div>
-          <h5>XXX＋ completed projects</h5>
-        </div>
-        <div class="flexbox flexcolumn">
-          <div class="icon-circle-bg">
-            <img src="images/icon-schedule.png" alt="Schedule image">
-          </div>
-          <h5>Flexible scheduling</h5>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Meet Our Team -->
-  <section class="section-style about-meetourteam">
-    <div class="content-max-width align-center">
-      <h2><span class="highlight">M</span>eet Our Team</h2>
-      <hr class="h-line">
-      <div class="responsive-flexbox">
-        <div class="flexbox">
-          <div class="align-left meetourteam-img">
-            <img src="images/team-photo1.jpg" alt="Photo of Gord Jones">
-            <p>Gord Jones / Co-owner</p>
-          </div>
-          <div class="align-left meetourteam-img">
-            <img src="images/team-photo2.jpg" alt="Photo of Carl Kristoff">
-            <p>Carl Kristoff / Co-owner</p>
-          </div>
-        </div>
-        <div class="meetourteam-text align-left">
-          <h4>Our Story</h4>
-          <p>Carl and Gord met through a mutual friend and we both were looking for a  better opportunity.  We took over City Conctete Cutting in May of 2012 and haven’t looked back since.  We ensure nobody will work harder to ensure you get the
-            result that you want with your project.  Whether it’s big or small we are here for you.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials -->
-  <section class="section-style testimonials">
-    <div class="content-max-width align-center">
-      <h2><span class="highlight">H</span>ear From Our Happy Clients</h2>
-      <hr class="h-line">
-      <div id="carouselAutoplaying" class="carousel slide carousel-dark" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="carousel-review">
-              <p>“Carl and Gord are hardworking reliable guys that make their every best effort to ensure the job gets done. It's also great that they need little heads up for scheduling to get a job done. They will work through the night if a job
-                dictates the need. They are an honest reliable duo.”</p>
-              <img src="images/stars.png" alt="">
-              <p class="reviewer">- Randy Blystone, <a href="https://g.co/kgs/fVvtEwK" target="_blank" rel="noopener noreferrer">Google Review</a></p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="carousel-review">
-              <p>“Carl and Gord have always been able to find creative solutions to any challenges we've encountered. Plus, they work harder than pack mules and absolutely will not quit until the job is done! Best bang for the buck IMO.”</p>
-              <img src="images/stars.png" alt="">
-              <p class="reviewer">- Will Green, <a href="https://g.co/kgs/AHJbDjR" target="_blank" rel="noopener noreferrer">Google Review</a></p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="carousel-review">
-              <p>“Gord and Carl did an amazing job to remove part of a retaining wall that prevented me from parking in my garage. Thanks+++”</p>
-              <img src="images/stars.png" alt="">
-              <p class="reviewer">- Jake Locke, <a href="https://g.co/kgs/sUUk99k" target="_blank" rel="noopener noreferrer">Google Review</a></p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="carousel-review">
-              <p>“Great quality of work. Have worked with them for 5 years now - always go above and beyond to get the job done and done right!”</p>
-              <img src="images/stars.png" alt="">
-              <p class="reviewer">- Carla Mugleston, <a href="https://g.co/kgs/duQL4Yr" target="_blank" rel="noopener noreferrer">Google Review</a></p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="carousel-review">
-              <p>“Very professional and friendly company, they made us feel comfortable the whole way through.”</p>
-              <img src="images/stars.png" alt="">
-              <p class="reviewer">- Nancy Di Cuollo, <a href="https://g.co/kgs/ZCgXB4J" target="_blank" rel="noopener noreferrer">Google Review</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-  </section>
 
   <!-- Footer -->
   <footer>
@@ -281,8 +349,7 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-      crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   <script src="js/index.js"></script>
 </body>
 
