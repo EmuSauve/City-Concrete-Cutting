@@ -704,9 +704,12 @@ footer {
   display: flex;
 }
 
+.project-img-box {
+  display: flex;
+}
+
 .project-img-box .project-img{
   margin-left: 20px;
-
 }
 
 .project-img {
@@ -821,6 +824,10 @@ footer {
 
   .meetourteam-text {
     width: 55%;
+  }
+
+  .project-img-box {
+    flex-direction: column;
   }
 
 }
