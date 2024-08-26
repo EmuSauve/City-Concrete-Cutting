@@ -237,6 +237,8 @@ ul {
   background-color: #FFFFFF;
   box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.05);
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .cardbox img {
@@ -249,6 +251,11 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex: 1 1 auto;
+}
+
+.card-text-top {
+  flex-grow: 1;
 }
 
 .card-text p{
@@ -747,7 +754,11 @@ footer {
 }
 
 .project-gallery {
-  flex-wrap: wrap;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  gap: 20px;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1225px) {
@@ -959,9 +970,8 @@ footer {
     font-size: 16px;
     margin: 15px 15px 0 0;
   }
-
-  .carousel-inner {
-    height: 500px;
+  .carousel-review{
+    width: 70%;
   }
 
   .area-list {
