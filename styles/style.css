@@ -487,8 +487,8 @@ footer {
 }
 
 .carousel-inner {
-  height: 300px;
-  align-content: center;
+  /* height: 300px;
+  align-content: center; */
 }
 
 .carousel-review {
@@ -497,6 +497,7 @@ footer {
 }
 
 .carousel-item  {
+  height: 300px;
   align-content: center;
 }
 
@@ -892,7 +893,7 @@ footer {
     margin: 0 0 20px 0;
   }
 
-  .carousel-inner {
+  .carousel-item {
     height: 400px;
   }
 
